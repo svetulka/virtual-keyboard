@@ -110,17 +110,6 @@ const Keyboard = {
 
                     break;
 
-                // case 'done':
-                //     keyElement.classList.add('keyboard__key--wide', 'keyboard__key--dark');
-                //     keyElement.innerHTML = createIconHTML('check_circle');
-
-                //     keyElement.addEventListener('click', () => {
-                //         this.close();
-                //         this._triggerEvent('onclose');
-                //     });
-
-                //     break;
-
                 case 'fn':
                     keyElement.textContent = key;
                     break;
